@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.1 (Python 3.12.3 on win32)" generated="2026-02-18T11:32:34.551068" rpa="false" schemaversion="5">
+<suite id="s1" name="TestCase1" source="C:\Users\vinod kumar\PycharmProjects\Feb2026WiproRoboFramework\TestSuite\TestCase1.robot">
+<test id="s1-t1" name="Verify login with valid credentials" line="8">
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-02-18T11:32:35.070328" level="INFO">Enter username</msg>
+<arg>Enter username</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-02-18T11:32:35.069819" elapsed="0.002621"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-02-18T11:32:35.072966" level="INFO">Enter password</msg>
+<arg>Enter password</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-02-18T11:32:35.072966" elapsed="0.000000"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-02-18T11:32:35.074023" level="INFO">click on login button</msg>
+<arg>click on login button</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-02-18T11:32:35.074023" elapsed="0.000000"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-02-18T11:32:35.074023" level="INFO">user is on the home page</msg>
+<arg>user is on the home page</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2026-02-18T11:32:35.074023" elapsed="0.001328"/>
+</kw>
+<status status="PASS" start="2026-02-18T11:32:35.067692" elapsed="0.007659"/>
+</test>
+<status status="PASS" start="2026-02-18T11:32:34.579403" elapsed="0.496960"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="TestCase1" id="s1" pass="1" fail="0" skip="0">TestCase1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.1 (Python 3.12.3 on win32)" generated="2026-02-19T12:45:26.008228" rpa="false" schemaversion="5">
+<suite id="s1" name="Alerts" source="C:\Users\vinod kumar\PycharmProjects\Feb2026WiproRoboFramework\LabSessions\Feb_19\Alerts.robot">
+<test id="s1-t1" name="Verify Alerts" line="7">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-02-19T12:45:26.482967" level="INFO">Opening browser 'chrome' to base url 'https://www.tutorialspoint.com/selenium/practice/alerts.php'.</msg>
+<arg>${url}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-02-19T12:45:26.482967" elapsed="2.707717"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-02-19T12:45:29.191695" elapsed="2.520320"/>
+</kw>
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>xpath:(//button)[6]</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-02-19T12:45:31.712015" elapsed="0.129679"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-02-19T12:45:31.843136" level="INFO">Clicking element 'xpath:(//button)[6]'.</msg>
+<arg>xpath:(//button)[6]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-19T12:45:31.841694" elapsed="0.130243"/>
+</kw>
+<kw name="Handle Alert" owner="SeleniumLibrary">
+<msg time="2026-02-19T12:45:31.973704" level="INFO">HANDLE::&lt;class 'datetime.timedelta'&gt;::0:00:03</msg>
+<arg>action=ACCEPT</arg>
+<arg>timeout=3</arg>
+<doc>Handles the current alert and returns its message.</doc>
+<status status="PASS" start="2026-02-19T12:45:31.973704" elapsed="0.009064"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-02-19T12:45:36.984013" level="INFO">Slept 5 seconds.</msg>
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-02-19T12:45:31.982768" elapsed="5.001245"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-02-19T12:45:36.984013" level="INFO">Clicking element 'xpath:(//button)[8]'.</msg>
+<arg>xpath:(//button)[8]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-19T12:45:36.984013" elapsed="0.098004"/>
+</kw>
+<kw name="Handle Alert" owner="SeleniumLibrary">
+<msg time="2026-02-19T12:45:37.083043" level="INFO">HANDLE::&lt;class 'datetime.timedelta'&gt;::0:00:03</msg>
+<arg>action=DISMISS</arg>
+<arg>timeout=3</arg>
+<doc>Handles the current alert and returns its message.</doc>
+<status status="PASS" start="2026-02-19T12:45:37.083043" elapsed="0.006108"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-02-19T12:45:42.090487" level="INFO">Slept 5 seconds.</msg>
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-02-19T12:45:37.090151" elapsed="5.000336"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2026-02-19T12:45:42.091558" level="INFO">Clicking element 'xpath:(//button)[9]'.</msg>
+<arg>xpath:(//button)[9]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-02-19T12:45:42.091558" elapsed="0.114987"/>
+</kw>
+<kw name="Input Text Into Alert" owner="SeleniumLibrary">
+<arg>vinod</arg>
+<doc>Types the given ``text`` into an input field in an alert.</doc>
+<status status="PASS" start="2026-02-19T12:45:42.206545" elapsed="0.011210"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-02-19T12:45:47.219371" level="INFO">Slept 5 seconds.</msg>
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-02-19T12:45:42.217755" elapsed="5.001616"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-02-19T12:45:47.219371" elapsed="2.386642"/>
+</kw>
+<status status="PASS" start="2026-02-19T12:45:26.481292" elapsed="23.124721"/>
+</test>
+<status status="PASS" start="2026-02-19T12:45:26.011876" elapsed="23.596478"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Alerts" id="s1" pass="1" fail="0" skip="0">Alerts</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

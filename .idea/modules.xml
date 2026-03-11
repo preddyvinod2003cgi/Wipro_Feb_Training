@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/FlightCapstoneProject.iml" filepath="$PROJECT_DIR$/.idea/FlightCapstoneProject.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/Feb2026WiproRoboFramework.iml" filepath="$PROJECT_DIR$/.idea/Feb2026WiproRoboFramework.iml" />
+>>>>>>> 2c7c131cc47776f17345e3082b8a60a93b2a5045
     </modules>
   </component>
 </project>

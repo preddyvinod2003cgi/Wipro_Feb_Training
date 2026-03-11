@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.1 (Python 3.12.3 on win32)" generated="2026-02-18T12:27:43.852073" rpa="false" schemaversion="5">
+<suite id="s1" name="Loopthroughdirectory" source="C:\Users\vinod kumar\PycharmProjects\Feb2026WiproRoboFramework\LabSessions\Feb_18\Loopthroughdirectory.robot">
+<test id="s1-t1" name="Loop Dictionary" line="8">
+<for flavor="IN">
+<iter>
+<kw name="Log" owner="BuiltIn">
+<msg time="2026-02-18T12:27:43.909221" level="FAIL">ValueError: Argument 'level' got value 'Value: admin' that cannot be converted to 'TRACE', 'DEBUG', 'INFO', 'CONSOLE', 'HTML', 'WARN' or 'ERROR'.</msg>
+<arg>Key: ${key}</arg>
+<arg>Value: ${value}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="FAIL" start="2026-02-18T12:27:43.908222" elapsed="0.000999">ValueError: Argument 'level' got value 'Value: admin' that cannot be converted to 'TRACE', 'DEBUG', 'INFO', 'CONSOLE', 'HTML', 'WARN' or 'ERROR'.</status>
+</kw>
+<var name="${key}">username</var>
+<var name="${value}">admin</var>
+<status status="FAIL" start="2026-02-18T12:27:43.908222" elapsed="0.000999">ValueError: Argument 'level' got value 'Value: admin' that cannot be converted to 'TRACE', 'DEBUG', 'INFO', 'CONSOLE', 'HTML', 'WARN' or 'ERROR'.</status>
+</iter>
+<var>${key}</var>
+<var>${value}</var>
+<value>&amp;{USER}</value>
+<status status="FAIL" start="2026-02-18T12:27:43.907101" elapsed="0.002120">ValueError: Argument 'level' got value 'Value: admin' that cannot be converted to 'TRACE', 'DEBUG', 'INFO', 'CONSOLE', 'HTML', 'WARN' or 'ERROR'.</status>
+</for>
+<status status="FAIL" start="2026-02-18T12:27:43.907101" elapsed="0.002120">ValueError: Argument 'level' got value 'Value: admin' that cannot be converted to 'TRACE', 'DEBUG', 'INFO', 'CONSOLE', 'HTML', 'WARN' or 'ERROR'.</status>
+</test>
+<status status="FAIL" start="2026-02-18T12:27:43.854073" elapsed="0.056653"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Loopthroughdirectory" id="s1" pass="0" fail="1" skip="0">Loopthroughdirectory</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
